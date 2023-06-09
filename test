@@ -1,1 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metanerds</title>
+    <link rel="stylesheet" href="css/metanerds.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header class="header">
+            <nav class="navbar">
+                <a href="home.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a href="inventory.html">Inventory</a>
+                <a href="feedback.html">Feeback / Suggestion </a>
+            </nav>
+            <!--
+            <form action="#" class="seacrh-bar">
+                <input type="text" placeholder="Search....">
+                <button type="submit"><i class='bx bx-search-alt'></i></button>
+            </form>-->
 
+            </header>
+            <!-- <div class="background"></div> -->
+            <div class="container">
+                <div class="content">
+                    <h2 class="logo"><img src="img/logo.png" width="50" height="50"/></h2>
+                    <h2 class="name"></i>Meta-Nerds</h2><br>
+                    
+                    <div class="info">
+                        <h2> Welcome!! <br> <span> To Inventory Website </span></h2>
+
+                            <p> The RFID Inventory Management System is a Solution For Better Inventory
+                                Management in different industries. <br>
+                                
+                            <br>This system accurately tracks inventory in real time, reducing 
+                            manual errors and improving the work quality of personnel.<br>
+
+                            <br> RFID tags will assist in reducing equipment disorganization in establishment
+                            by making it easier to locate nearby device and equipment.  <br>
+
+                    </div>
+                </div>
+
+                <div class="logreg-box">
+                    <div class="form-box login"> <!--This is for the log-in page within the homepage-->
+                        <form action="#">
+                            <h2> Login </h2>
+
+                            <div class="input-box">
+                                <span class="icon"><i class='bx bxs-envelope'></i></span>
+                                <input type="email" required>
+                                <label>Email</label>
+                            </div>
+
+                            <div class="input-box">
+                                <span class="icon"><i class='bx bxs-key' ></i></span>
+                                <input type="password" required>
+                                <label>Password</label>
+                            </div>
+
+                            <div class="remember-forgot">
+                                <label><input type="checkbox"> Remember Me </label>
+                                <a href="#"> Forgot Password </a>
+                            </div>
+
+                            <button type="submit" class="btn">Sign In</button>
+                            <div class="login-register">
+                                <p>Don't have an account?
+                                <a href="#" class="register-link"> Register </a></p>
+                            </div>
+                        </form>
+                </div>
+
+                <div class="form-box register"> <!--This is for the register page within the homepage-->
+                    <form action="#">
+                        <h2> Register </h2>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-user'></i></span>
+                            <input type="text" required>
+                            <label>Name</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-envelope'></i></span>
+                            <input type="email" required>
+                            <label>Email</label>
+                        </div>
+
+                        <div class="input-box">
+                            <span class="icon"><i class='bx bxs-key' ></i></span>
+                            <input type="password" required>
+                            <label>Password</label>
+                        </div>
+
+                        <div class="remember-forgot">
+                            <label><input type="checkbox"> I Agree to the Terms & Conditions </label>
+                            <a href="#"> Forgot Password </a>
+                        </div>
+
+                        <button type="submit" class="btn">Sign Up</button>
+
+                        <div class="login-register">
+                            <p> Already have an account?
+                            <a href="#" class="login-link"> Sign In </a></p>
+                        </div>
+                    </form>
+            </div>
+        </div>
+            <script src="script.js"></script>
+    </body>
+    </html>
